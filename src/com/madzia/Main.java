@@ -10,5 +10,8 @@ public class Main {
 
         SingleNumber singleNumber = new SingleNumber();
         System.out.println(singleNumber.singleNumber(new int[]{4, 1, 2, 1, 2}));
+
+        ReverseString reverseString = new ReverseString();
+        reverseString.reverseString(new char[]{'a', 'B', 'c', 'd', 'E', 'f', '0'});
     }
 }
