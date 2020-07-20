@@ -8,8 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        ValidPalindrome validPalindrome = new ValidPalindrome();
-        System.out.println(validPalindrome.isPalindrome("A man, a plan, a canal: Panama"));
+//        ValidPalindrome validPalindrome = new ValidPalindrome();
+//        System.out.println(validPalindrome.isPalindrome("A man, a plan, a canal: Panama"));
 //
 //        SingleNumber singleNumber = new SingleNumber();
 //        System.out.println(singleNumber.singleNumber(new int[]{4, 1, 2, 1, 2}));
