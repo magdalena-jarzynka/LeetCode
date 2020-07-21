@@ -20,30 +20,31 @@ public class App
 //        FirstUniqueCharacterInAString firstUniqueCharacterInAString = new FirstUniqueCharacterInAString();
 //        System.out.println(firstUniqueCharacterInAString.firstUniqChar("loveleetcodevtc"));
 
-//        ListNode listNode1 = new ListNode(1);
-//        ListNode listNode2 = new ListNode(2);
-//        ListNode listNode3 = new ListNode(4);
+
+//        MergeTwoSortedLists.ListNode listNode1 = new MergeTwoSortedLists.ListNode(1);
+//        MergeTwoSortedLists.ListNode listNode2 = new MergeTwoSortedLists.ListNode(2);
+//        MergeTwoSortedLists.ListNode listNode3 = new MergeTwoSortedLists.ListNode(4);
 //
 //        listNode1.next = listNode2;
 //        listNode2.next = listNode3;
 //
-//        ListNode listNode4 = new ListNode(1);
-//        ListNode listNode5 = new ListNode(3);
-//        ListNode listNode6 = new ListNode(4);
+//        MergeTwoSortedLists.ListNode listNode4 = new MergeTwoSortedLists.ListNode(1);
+//        MergeTwoSortedLists.ListNode listNode5 = new MergeTwoSortedLists.ListNode(3);
+//        MergeTwoSortedLists.ListNode listNode6 = new MergeTwoSortedLists.ListNode(4);
 //
 //        listNode4.next = listNode5;
 //        listNode5.next = listNode6;
 //
 //        MergeTwoSortedLists mergeTwoSortedLists = new MergeTwoSortedLists();
 //
-//        ListNode x = mergeTwoSortedLists.mergeTwoLists(listNode1, listNode4);
+//        MergeTwoSortedLists.ListNode x = mergeTwoSortedLists.mergeTwoLists(listNode1, listNode4);
 //        while (x != null) {
 //            System.out.println(x.val);
 //            x = x.next;
 //    }
 
 //        PowerOfThree powerOfThree = new PowerOfThree();
-//        System.out.println(powerOfThree.isPowerOfThree(9));
+//        System.out.println(powerOfThree.isPowerOfThree(14));
 
 
     }
