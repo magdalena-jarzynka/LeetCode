@@ -31,6 +31,16 @@ class ClimbingStairsTest {
     }
 
     @Test
+    void testInput3() {
+        //Given
+        int input = 3;
+        //When
+        int result = climbingStairs.climbStairs(input);
+        //Then
+        assertEquals(3, result);
+    }
+
+    @Test
     void testInput5() {
         //Given
         int input = 5;

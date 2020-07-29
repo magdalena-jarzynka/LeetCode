@@ -9,8 +9,14 @@ public class ClimbingStairs {
         if (n == 2) {
             result = 2;
         }
-        if (n > 2) {
-            result = climbStairs(n-1) + climbStairs(n-2);
+        if (n >= 3) {
+            int result1 = 1;
+            int result2 = 2;
+            for (int i = 3; i <= n; i++) {
+                result = result1 + result2;
+                result1 = result2;
+                result2 = result;
+            }
         }
         return result;
     }
