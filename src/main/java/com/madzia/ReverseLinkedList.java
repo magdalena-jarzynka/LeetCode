@@ -1,5 +1,8 @@
 package com.madzia;
 
+/**
+ * Solution for <a href="https://leetcode.com/problems/reverse-linked-list/">Reverse Linked List</a>
+ */
 public class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
         ListNode previousHead = null;

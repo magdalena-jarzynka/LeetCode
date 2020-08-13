@@ -4,16 +4,16 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MoveZerosTest {
+class MoveZeroesTest {
 
-    MoveZeros moveZeros = new MoveZeros();
+    MoveZeroes moveZeroes = new MoveZeroes();
 
     @Test
     void testOneZeroAtTheBegging() {
         //Given
         int[] nums = {0, 1, 3, 4};
         //When
-        moveZeros.moveZeroes(nums);
+        moveZeroes.moveZeroes(nums);
         //Then
         assertArrayEquals(new int[]{1, 3, 4, 0}, nums);
     }
@@ -23,7 +23,7 @@ class MoveZerosTest {
         //Given
         int[] nums = {1, 3, 4, 0};
         //When
-        moveZeros.moveZeroes(nums);
+        moveZeroes.moveZeroes(nums);
         //Then
         assertArrayEquals(new int[]{1, 3, 4, 0}, nums);
     }
@@ -33,27 +33,27 @@ class MoveZerosTest {
         //Given
         int[] nums = {1, 3, 0, 4};
         //When
-        moveZeros.moveZeroes(nums);
+        moveZeroes.moveZeroes(nums);
         //Then
         assertArrayEquals(new int[]{1, 3, 4, 0}, nums);
     }
 
     @Test
-    void testFewZerosInARow() {
+    void testFewZeroesInARow() {
         //Given
         int[] nums = {3, 4, 0, 0, 0, 0, 5, 1};
         //When
-        moveZeros.moveZeroes(nums);
+        moveZeroes.moveZeroes(nums);
         //Then
         assertArrayEquals(new int[]{3, 4, 5, 1, 0, 0, 0, 0}, nums);
     }
 
     @Test
-    void testOnlyZeros() {
+    void testOnlyZeroes() {
         //Given
         int[] nums = {0, 0, 0, 0, 0};
         //When
-        moveZeros.moveZeroes(nums);
+        moveZeroes.moveZeroes(nums);
         //Then
         assertArrayEquals(new int[]{0, 0, 0, 0, 0}, nums);
     }
@@ -63,7 +63,7 @@ class MoveZerosTest {
         //Given
         int[] nums = {};
         //When
-        moveZeros.moveZeroes(nums);
+        moveZeroes.moveZeroes(nums);
         //Then
         assertArrayEquals(new int[]{}, nums);
     }

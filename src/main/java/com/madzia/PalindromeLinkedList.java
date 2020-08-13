@@ -2,6 +2,9 @@ package com.madzia;
 
 import java.util.Stack;
 
+/**
+ * Solution for <a href="https://leetcode.com/problems/palindrome-linked-list/">Palindrome Linked List</a>
+ */
 public class PalindromeLinkedList {
     public boolean isPalindrome(ListNode head) {
         Stack<Integer> stack = new Stack<>();

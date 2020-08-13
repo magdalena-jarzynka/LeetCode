@@ -1,5 +1,8 @@
 package com.madzia;
 
+/**
+ * Solution for <a href="https://leetcode.com/problems/valid-palindrome/">Valid Palindrome</a>
+ */
 public class ValidPalindrome {
     public boolean isPalindrome(String s) {
         char[] chars = s.toLowerCase().toCharArray();

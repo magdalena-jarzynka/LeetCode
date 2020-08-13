@@ -1,5 +1,8 @@
 package com.madzia;
 
+/**
+ * Solution for <a href="https://leetcode.com/problems/merge-two-sorted-lists/">Merge Two Sorted Lists</a>
+ */
 public class MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode resultNode = new ListNode();

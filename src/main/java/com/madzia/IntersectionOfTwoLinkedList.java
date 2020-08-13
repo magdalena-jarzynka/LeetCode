@@ -3,6 +3,9 @@ package com.madzia;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Solution for <a href="https://leetcode.com/problems/intersection-of-two-linked-lists/">Intersection Of Two Linked List</a>
+ */
 public class IntersectionOfTwoLinkedList {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         Set<ListNode> setA = new HashSet<>();

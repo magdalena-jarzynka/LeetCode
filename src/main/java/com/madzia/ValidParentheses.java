@@ -2,6 +2,9 @@ package com.madzia;
 
 import java.util.Stack;
 
+/**
+ * Solution for <a href="https://leetcode.com/problems/valid-parentheses/">Valid Parentheses</a>
+ */
 public class ValidParentheses {
     private Stack<Character> characterStack = new Stack<>();
 

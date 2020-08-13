@@ -1,5 +1,8 @@
 package com.madzia;
 
+/**
+ * Solution for <a href="https://leetcode.com/problems/power-of-three/">Power Of Three</a>
+ */
 public class PowerOfThree {
     public boolean isPowerOfThree(int n) {
         boolean result;

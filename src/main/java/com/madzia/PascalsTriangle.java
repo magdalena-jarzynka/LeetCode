@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * Solution for <a href="https://leetcode.com/problems/pascals-triangle/">Pascal's Triangle</a>
+ */
 public class PascalsTriangle {
     public List<List<Integer>> generate(int numRows) {
         if (numRows == 0) {

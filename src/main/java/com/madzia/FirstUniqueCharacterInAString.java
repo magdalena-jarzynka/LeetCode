@@ -4,6 +4,9 @@ import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
+/**
+ * Solution for <a href="https://leetcode.com/problems/first-unique-character-in-a-string/">First Unique Character In A String</a>
+ */
 public class FirstUniqueCharacterInAString {
     public int firstUniqChar(String s) {
         char[] chars = s.toCharArray();

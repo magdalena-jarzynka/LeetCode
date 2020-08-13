@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Solution for <a href="https://leetcode.com/problems/majority-element/">Majority Element</a>
+ */
 public class MajorityElement {
     public int majorityElement(int[] nums) {
         int result = 0;

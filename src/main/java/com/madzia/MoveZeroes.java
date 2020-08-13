@@ -1,6 +1,9 @@
 package com.madzia;
 
-public class MoveZeros {
+/**
+ * Solution for <a href="https://leetcode.com/problems/move-zeroes/">MoveZeroes</a>
+ */
+public class MoveZeroes {
     public void moveZeroes(int[] nums) {
         int countZero = 0;
         for (int i = 0; i < nums.length; i++) {

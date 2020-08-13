@@ -1,5 +1,8 @@
 package com.madzia;
 
+/**
+ * Solution for <a href="https://leetcode.com/problems/climbing-stairs/">Climbing Stairs</a>
+ */
 public class ClimbingStairs {
     public int climbStairs(int n) {
         int result = -1;
