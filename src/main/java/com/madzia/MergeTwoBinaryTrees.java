@@ -17,7 +17,7 @@ public class MergeTwoBinaryTrees {
         return t1;
     }
 
-    public static class TreeNode {
+    public class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
