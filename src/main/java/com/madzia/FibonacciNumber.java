@@ -1,7 +1,16 @@
 package com.madzia;
 
+/**
+ * Solution for <a href="https://leetcode.com/problems/fibonacci-number/">Fibonacci Number</a>
+ */
 public class FibonacciNumber {
-    public int fib(int N) {
-        return -1;
+    public int fib(int n) {
+        if (n == 0) {
+            return 0;
+        }
+        if (n == 1) {
+            return 1;
+        }
+        return fib(n - 1) + fib(n - 2);
     }
 }
