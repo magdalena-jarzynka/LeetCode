@@ -1,7 +1,7 @@
 package com.madzia;
 
 /**
- * Solution for <a href="https://leetcode.com/problems/move-zeroes/">MoveZeroes</a>
+ * Solution for <a href="https://leetcode.com/problems/move-zeroes/">Move Zeroes</a>
  */
 public class MoveZeroes {
     public void moveZeroes(int[] nums) {
