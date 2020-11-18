@@ -5,24 +5,32 @@ package com.madzia;
  */
 public class SortColors {
     public void sortColors(int[] nums) {
-        int countZero = 0;
-        int countOne = 0;
-        for (int num : nums) {
-            if (num == 0) {
-                countZero++;
+        int lastIndex = nums.length - 1;
+        int firstIndex = 0;
+
+        while (nums[firstIndex] == 0 && firstIndex != lastIndex) {
+            firstIndex++;
+        }
+        while (nums[lastIndex] == 2 && firstIndex != lastIndex) {
+            lastIndex--;
+        }
+
+        for (int i = firstIndex; i <= lastIndex && firstIndex != lastIndex; i++) {
+            if (nums[i] == 2) {
+                int temp = nums[lastIndex];
+                nums[lastIndex] = nums[i];
+                nums[i] = temp;
+                lastIndex--;
+                while (nums[lastIndex] == 2 && firstIndex != lastIndex) {
+                    lastIndex--;
+                }
             }
-            if (num == 1) {
-                countOne++;
+            if (nums[i] == 0) {
+                int temp = nums[firstIndex];
+                nums[firstIndex] = nums[i];
+                nums[i] = temp;
+                firstIndex++;
             }
-        }
-        for (int x = 0; x < countZero; x++) {
-            nums[x] = 0;
-        }
-        for (int y = countZero; y < countZero + countOne; y++) {
-            nums[y] = 1;
-        }
-        for (int z = countZero + countOne; z < nums.length; z++) {
-            nums[z] = 2;
         }
     }
 }
